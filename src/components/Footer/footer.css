@@ -1,7 +1,8 @@
 .footer {
+    font-family: "Raleway", sans-serif;
     height: 300px;
     width: 100%;
-    background-color: #6d0909;
+    background-color: #010220;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -10,7 +10,8 @@
   }
   
   .nav {
-    background-color: #6d0909;
+    background-color: #010220;
+    font-family: "Raleway", sans-serif;
     position: fixed;
     top: 0;
     right: 0;
@@ -39,22 +40,16 @@
       }
   
       #active {
-        color: #000000;
-        background-color: #ffffff;
+        color: #dfb704;
         font-weight: 600;
       }
     }
   
     .logo__container {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      cursor: pointer;
-  
-      p {
-        font-family: "Crimson Text", serif;
-        color: #ffffff;
+      img{
+        width: 100px;
       }
+  
     }
   
     .nav__icons {

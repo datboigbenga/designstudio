@@ -1,5 +1,31 @@
 
 .about{
-    padding-top: 110px;
-    padding-bottom: 20px;
+    padding: 110px 20px;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+.about__header{
+    text-align: center;
+    
+    h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #010220;
+    }
+    p{  
+        color: #000000;
+    }
+}
+ .about__features__header{
+    text-align: center;
+
+    h1{
+        font-size: 1rem;
+        color: #010220;    }
+    p{
+        color: #000000;
+        margin-bottom: 10px;
+    }
+ }
