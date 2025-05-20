@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { navItems } from "../../data-helpers/dashboard";
 import "./navbar.css";
 import { useNavigate } from "react-router-dom";
-
+import Logo from '../../assets/UDS LOGO.png'
 import { useEffect, useState } from "react";
 
 export const Navbar = () => {
@@ -40,8 +40,7 @@ export const Navbar = () => {
   return (
     <nav className="nav">
       <div className="logo__container">
-        <img src="" alt="" />
-        <p>UNILAG DESIGN STUDIO</p>
+        <img src={Logo} alt="" />
       </div>
       <ul className="nav__items">
         {navItems.map((item, indx) => (
